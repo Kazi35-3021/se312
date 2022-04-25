@@ -2,11 +2,11 @@
  int main()
 
  {
-     char str1[30]= “google”;
+     char str1[30]= â€œgoogleâ€;
 
-char str2[30]= “Google scholar ”;
+char str2[30]= â€œGoogle scholar â€;
 
-char str3[30]= “GOOGLE”;
+char str3[30]= â€œGOOGLEâ€;
 
 Char str4[30];
 
@@ -16,7 +16,7 @@ puts(str1);
 
 d=strlen(str1);
 
-printf (“Both String are same \n”);
+printf (â€œBoth String are same \nâ€);
 
 puts(strlwr(str1));
 
@@ -26,7 +26,6 @@ strncpy(str4,str2);
 
 puts(str4);
 
-printf(“you have successfully complete the program” \n);
 
 puts(strrev(str2))
 return 0
